@@ -1,0 +1,221 @@
+
+/* footer*/
+footer{
+    background-color: #A1DB84;
+}
+
+/* Der innere Teil der Webseite*/
+#hero-cta{
+    background-color: #A1DB84;
+}
+/* Link Konfigurationen*/
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+color: black;
+background-color: transparent;
+text-decoration: none;
+
+}
+a:hover {
+    color: darkgreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*button grösse*/
+#hero-cta{
+    width: 15em;
+}
+
+.speech{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #A1DB84;
+    color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    right: 38%;
+    bottom: 60%;
+}
+.speech::before{
+    position: absolute;
+    bottom: -20px;
+    left: 3%;
+    content: "";
+    border: 20px solid transparent;
+    border-top-color: #A1DB84;
+    border-bottom: 0;
+
+}
+.speech2 {
+    background-color: #A1DB84;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.speech2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #A1DB84 transparent transparent;
+}
+
+.speech3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #A1DB84;
+    color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    left: 50%;
+    top: 20px;
+}
+.speech3::before{
+    position: absolute;
+    bottom: -20px;
+    right: 10%;
+    
+    content: "";
+    border: 20px solid transparent;
+    border-top-color: #A1DB84;
+    border-bottom: 0;
+}
+
+
+.speech4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #A1DB84;
+    color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    left: 59%;
+    bottom: 60%;
+}
+.speech4::before{
+    position: absolute;
+    right: -20px;
+    left: 70%;
+    top: 2.5em;
+    
+    content: "";
+    border: 30px solid transparent;
+    border-bottom-color: #A1DB84;
+    
+    
+
+}
+
+nav{
+    background-color: #A1DB84;
+}
+
+nav .logo{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+
+.btn-container {
+    text-align: right;
+}
+  
+.arrow-right {
+    display: inline-block;
+    width: 10px;
+    height: 0;
+    border-top: 10px solid transparent; /* Adjust the height of the arrow */
+    border-bottom: 10px solid transparent; /* Adjust the height of the arrow */
+    border-left: 10px solid #A1DB84; /* Adjust the color of the arrow */
+}
+
+#outline p{
+    margin: 0;
+    padding: 0;
+}
+  
+.arrow-link {
+    display: flex;
+    align-items: center; /* Vertically align content */
+}
+  
+#sitzAffe{
+    padding-top: 2em;
+}
+#sitzAffe2{
+    padding-top: 2em;
+}
+
+#sitzAffe3{
+    padding-top: 2em;
+}
+
+#sitzAffe_container{
+    width: 170%;
+    height: auto;
+}
+#sitzAffe_container2{
+    width: 160%;
+    height: auto;
+}
+#sitzAffe_container3{
+    width: 150%;
+    height: auto;
+}
+
+
+
+.text-box .untertitel{
+font-weight: 600;
+color: #A1DB84;
+}
+
+.titel{
+    font: 800;
+    color: #A1DB84;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding-left: 30px; /* Fügt etwas Abstand zwischen Inhalt und Zellengrenze hinzu */
+    padding-right: 30px;
+    text-align: left; /* Zentriert den Text in den Zellen */
+}
+td{
+    font-weight: 500;
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+}
+h2{
+    padding: 0.5em;
+}
+#video-container a{
+    font-weight: bold;
+}
+
+
